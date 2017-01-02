@@ -22,7 +22,7 @@ public class Solution {
         		// Go through all potential hourglass shapes
         		hourglassSum = arr[i][j] + arr[i][j+1] + arr[i][j+2]
         					 + arr[i+1][j+1]
-        				+ arr[i+2][j] + arr[i+2][j+1] + arr[i+2][j+2];
+        		+ arr[i+2][j] + arr[i+2][j+1] + arr[i+2][j+2];
 
         		// Reset max value if new max is found
         		if (hourglassSum > maxHourglassSum) {
